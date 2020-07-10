@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/Roomie'
+import '../styles/components/Roomie.scss';
 
 
 const Roomie = () => {

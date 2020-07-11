@@ -1,5 +1,31 @@
 import React from 'react';
+
+//----------STYLES ROOMIE----------//
+
 import '../styles/components/Roomie.scss';
+
+//----------IMAGES DESCRIPTION ROOMIE----------//
+
+import ImageRoomie1 from '../assets/images/image_roomie1.png';
+import ImageRoomie2 from '../assets/images/image_roomie2.png';
+import ImageRoomie3 from '../assets/images/image_roomie3.png';
+
+//----------ICONS USER ROOMIE----------//
+
+import IconBoteella from '../assets/icons/botella-de-pet.png';
+import IconCama from '../assets/icons/cama.png';
+import IconDepartamento from '../assets/icons/departamento.png';
+import IconFumar from '../assets/icons/fumar.png';
+
+//----------ICONS USER----------//
+
+import IconDispositivoDeJuego from '../assets/icons/dispositivo-de-juego.png';
+import IconEmail from '../assets/icons/email.png';
+import IconGimnasio from '../assets/icons/gimnasio.png';
+import IconGuitarra from '../assets/icons/guitarra-electrica.png';
+import IconWhatsApp from '../assets/icons/icon_whatsapp.png';
+import IconMonitor from '../assets/icons/monitor.png';
+import IconWifi from '../assets/icons/wifi.png';
 
 
 const Roomie = () => {
@@ -8,13 +34,13 @@ const Roomie = () => {
       <main className="principal">
     <article className="principal__room">
       <figure className="room__image">
-        <img src="./img/roberto-nickson-oQ56kobbYLM-unsplash (1).png" alt=""></img>
+        <img src={ImageRoomie1} alt=""></img>
       </figure>
       <figure className="image__center-top">
-        <img src="./img/roberto-nickson-oQ56kobbYLM-unsplash (1).png" alt=""></img>
+        <img src={ImageRoomie2} alt=""></img>
       </figure>
       <figure className="image__center-bottom">
-        <img src="./img/christian-lambert-hlOpCML8twI-unsplash (1).png" alt=""></img>
+        <img src={ImageRoomie3} alt=""></img>
         <button className="see-more">Ver más fotos</button>
       </figure>
       <article className="principal__room-user">
@@ -36,18 +62,18 @@ const Roomie = () => {
         <article className="container__user-pleasures">
           <h3>Gustos</h3>
           <figure>
-            <img src="./img/monitor.png" alt=""></img>
-            <img src="./img/gimnasio.png" alt=""></img>
-            <img src="./img/dispositivo-de-juego.png" alt=""></img>
-            <img src="./img/guitarra-electrica.png" alt=""></img>
+            <img src={IconMonitor} alt=""></img>
+            <img src={IconGimnasio} alt=""></img>
+            <img src={IconDispositivoDeJuego} alt=""></img>
+            <img src={IconGuitarra} alt=""></img>
           </figure>
         </article>
         
         <article className="container__user-contact">
           <h3>Contactame</h3>
           <figure>
-            <img src="./img/correo.png" alt=""></img>
-            <img src="./img/whatsapp.png" alt=""></img>
+            <img src={IconEmail} alt=""></img>
+            <img src={IconWhatsApp} alt=""></img>
           </figure>
         </article>
       </article>
@@ -72,11 +98,11 @@ const Roomie = () => {
           <div className="line"></div>
           <h2>Caracteristicas</h2>
           <figure>
-            <img src="./img/wifi.png" alt=""></img>
-            <img src="./img/botella-de-pet.png" alt=""></img>
-            <img src="./img/fumar.png" alt=""></img>
-            <img src="./img/departamento.png" alt=""></img>
-            <img src="./img/cama.png" alt=""></img>
+            <img src={IconWifi} alt=""></img>
+            <img src={IconBoteella} alt=""></img>
+            <img src={IconFumar} alt=""></img>
+            <img src={IconDepartamento} alt=""></img>
+            <img src={IconCama} alt=""></img>
           </figure>
         </div>
       </article>

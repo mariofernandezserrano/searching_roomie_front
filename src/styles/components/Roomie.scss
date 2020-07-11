@@ -1,9 +1,22 @@
+//----------TYPOGRAPHIC----------//
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Montserrat:wght@300;700&display=swap');
+
+$typographic1: 'Lato', sans-serif;
+$typographic2: 'Montserrat', sans-serif;
+
+
+//----------COLORS----------//
+
 $color-shadow: #000;
 $title-font: 15px;
 $paragraph-font: 12px;
 $height-btn: 50px;
 $back-color-btn: #C70039;
 $color-btn: #fff;
+
+
+//----------***----------//
 
 body {
   height: 100vh;
@@ -175,6 +188,7 @@ p {
 
         h2 {
           text-align: center;
+          font-family: $typographic2;
           font-size: 30px;
           letter-spacing: 2px;
           margin-bottom: 20px;
@@ -186,11 +200,14 @@ p {
           margin-bottom: 30px;
 
           h3 {
+          font-family: $typographic2;
             color: #4A3F35;
           }
 
           p {
+          font-family: $typographic1;
             font-weight: bold;
+            font-size: 14px;
           }
         }
 
@@ -200,11 +217,14 @@ p {
           margin-bottom: 30px;
 
           h3 {
+          font-family: $typographic2;
             color: #4A3F35;
           }
 
           p {
-            font-weight: bold;
+          font-family: $typographic1;
+            font-weight: 700;
+            font-size: 16px;
           }
         }
 
@@ -212,6 +232,7 @@ p {
           margin-bottom: 30px;
 
           h3 {
+          font-family: $typographic2;
             color: #4A3F35;
           }
 
@@ -224,6 +245,7 @@ p {
 
         &-contact {
           h3 {
+          font-family: $typographic2;
             margin-bottom: 10px 0;
             color: #4A3F35;
           }
@@ -250,14 +272,15 @@ p {
       margin-top: 30px;
 
       h2 {
+      font-family: $typographic2;
         font-size: 35px;
         text-transform: uppercase;
         margin: -15px 0 20px 140px;
       }
 
       p {
-        font-size: 18px;
-        font-weight: 500;
+      font-family: $typographic1;
+        font-size: 20px;
       }
 
       div > figure > img {

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Montserrat:wght@300;700&display=swap');
+
+$typographic1: 'Lato', sans-serif;
+$typographic2: 'Montserrat', sans-serif;
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA ;
+  }
+  header {
+    align-items: center;
+    background:#FAFAFA;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: .5fr 3fr .5fr;
+    height: 164px;
+    top: 0px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: $typographic1;
+  }
+  .header__nav--logo img {
+    width: 185px;
+    height: 58px;
+  }
+  .header__search input {
+    margin-left: 45px;
+    border-radius: 35px;
+    border: 1px solid #707070;
+    height:35px ;
+    width: 200px;
+    color: #959595;
+    font-size: 15px;
+  }
+  .header__search button {
+    margin-left: 45px;
+    border-radius: 35px;
+    background-color:#C70039;
+    border-color: none;
+    border: 1px solid #C70039;
+    height: 45px;
+    width: 150px ;
+  }
+  .header__search button a, a:hover {
+      text-decoration: none;
+  }
+  .header__search button a {
+    color: #FAFAFA;
+    font-size: 25px ;
+  }
+  .header__search button img {
+    margin-top: 5px;
+    margin-left: 22px;
+    width: 21px;
+    height: 21px;
+  }
+  .header__menu ul {
+    display: none;
+    list-style: none;
+    margin: 60px 0px 0px -40px;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+  }
+  .header__menu:hover ul, ul:hover {
+      display: block;
+  }
+  
+  .header__menu li {
+    margin: 2px -7px;
+  }
+  
+  .header__menu li a {
+    color: #C70039;
+    text-decoration: none;
+  }
+  
+  .header__menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .header__menu--profile {
+    width: 66px;
+    height: auto;
+  }
+  .header__menu {
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-self: end;
+    cursor: pointer;
+  }
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    top: 0;
+}
+.tittle  {
+    width: 100%;
+    height:100px ;
+    background-color: #C70039;
+    display: flex;
+    align-items: center;
+}
+.tittle h1 {
+    position: absolute;
+    color: #FAFAFA;
+    font-size: 50px;
+    font-family: $typographic2;
+
+    margin-left: 184px;
+    margin-top: -5px;
+}
+.info-user__line {
+    margin-top: 70px;
+}
+.info-user h2 {
+    position: absolute;
+    color: #051026;
+    font-size: 36px;
+    font-family: $typographic2;
+    margin-top: -35px;
+    margin-left: 190px;
+}
+.info-user form {
+    text-align: left;
+    margin-left: 320px ;
+    margin-top: 40px;
+}
+.info-user form p {
+    font-size: 22px;
+    font-family: $typographic2;
+    color: #4A3F35;
+    padding: 20px
+}
+.info-user form input {
+    border-radius: 35px;
+    border: 1px solid #707070;
+    height:35px ;
+    width: 400px;
+    color: #959595;
+    font-size: 15px;
+    margin: -10px 0px 0px 0px;
+}
+.info-user form [type="checkbox"] {
+    width: 45px;
+    height: 20px;
+    display: inline;
+    list-style: none;
+}
+.info-user form label {
+    font-size: 22px;
+    font-family: $typographic1;
+}
+.info-user__line {
+    margin-top: 70px;
+}
+.profile h2 {
+    position: absolute;
+    color: #051026;
+    font-size: 36px;
+    font-family: $typographic1;
+    margin-top: -35px;
+    margin-left: 190px;
+  }
+.profile__photo {
+    text-align: left;
+    margin-left: 320px ;
+    margin-top: 40px;
+}
+.profile__photo img {
+    width: 230px;
+}
+.profile__photo button {
+    margin-left: 45px;
+    border-radius: 35px;
+    background-color:#C70039;
+    border-color: none;
+    border: 1px solid #C70039;
+    height: 45px;
+    width: 150px ;
+}
+.profile__photo button a, a:hover {
+    text-decoration: none;
+}
+.profile__photo button a {
+    color: #FAFAFA;
+    font-size: 20px ;
+    font-family: $typographic1;
+    font-weight: bold;
+}
+.save-changes {
+    margin-top:120px;
+}
+.save-changes button {
+    margin-left: 320px ;
+    margin-bottom: 200px;
+    border-radius: 35px;
+    background-color:#C70039;
+    border-color: none;
+    border: 1px solid #C70039;
+    height: 60px;
+    width: 300px ;
+}
+.save-changes button a, a:hover {
+    text-decoration: none;
+}
+.save-changes button a {
+    color: #FAFAFA;
+    font-size: 28px ;
+    font-family: $typographic1;
+    font-weight: bold;
+}
